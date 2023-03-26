@@ -1,12 +1,11 @@
+
 /* Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее ариф. из этого списка.*/
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class exe6 {
-    
-
-    public static void main (String[] args){
+       public static void main (String[] args){
         ArrayList<Integer> arrayList=new ArrayList<> (Arrays.asList(1,2,5,6,7,8,9,10) );
         System.out.println(arrayList);
         int min = arrayList.get(0);
@@ -25,7 +24,7 @@ public class exe6 {
             System.out.println("минимальное число: " + min);
             System.out.println("максимальное число: " + max);
             System.out.println("среднее число: " + temp);
-        /*for (int i =arrayList.size()-1; i>=0; i--){*/
+     
 
         
 
